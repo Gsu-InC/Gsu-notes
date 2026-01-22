@@ -1,0 +1,75 @@
+# ============ 操作系统文件 ============
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ============ 编辑器/IDE ============
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Office 临时文件
+~$*
+
+# ============ 笔记软件特定 ============
+# Obsidian
+.obsidian/workspace
+.obsidian/workspace.json
+.trash/
+
+# Typora
+.typora/
+
+# Notion 导出（如果使用）
+*.zip
+
+# ============ 编译输出 ============
+# Markdown 转 PDF/HTML 等
+*.pdf
+*.epub
+*.mobi
+_site/         # Jekyll
+public/        # Hugo
+build/         # 其他静态生成器
+
+# LaTeX 编译文件
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# ============ 临时文件 ============
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# ============ 环境相关 ============
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============ 包管理 ============
+node_modules/
+__pycache__/
+*.pyc
