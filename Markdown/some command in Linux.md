@@ -441,3 +441,9 @@ unzip [-d] 参数
 unzip test.zip -d home/gsu 如果解压时有同名内容会替换原来的内容
 建议到空文件夹里解压
 ```
+
+## Terminal 快捷键
+
+ctrl + u 删除命令行从开始至光标处
+ctrl + k 删除光标处至命令行结尾
+ctrl + a 将光标移动至最前
