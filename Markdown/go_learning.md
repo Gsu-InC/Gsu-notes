@@ -40,3 +40,6 @@ func main()
 }
 ```
 ==completely wrong!== The compiler can not understand
+
+### variable declaration
+
