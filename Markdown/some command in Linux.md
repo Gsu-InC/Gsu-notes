@@ -119,7 +119,7 @@ mv $ff chapter${ff#week} //  把week开头改成chapter开头 去尾是% 如ff%w
 ## 写语言
 ### 创建
 - 文件夹 mkdir + 文件夹名
-- 文件夹 makdir -p +路径 创建多层级的连续体系
+- 文件夹 mkdir -p +路径 创建多层级的连续体系
 - 文件 touch + 文件夹名
 - vi  指令进入
 ## 编译
